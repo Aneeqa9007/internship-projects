@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poopins", sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    color: white;
+    display: flex;
+
+}
+
+nav ul li {
+    padding: 12px;
+    margin-top: 30px;
+    font-size: large;
+
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+    display: flex;
+}
+
+.first {
+    color: black;
+    font-weight: 300;
+    font-size: 45px;
+    width: 50%;
+    margin-top: 70px;
+    padding: 20px;
+    word-spacing: 3px;
+    line-height: 60px;
+}
+
+.hero-img {
+    height: 500px;
+    padding-top: 60px;
+   
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+    padding-bottom:  25px;
+}
+
+.flex {
+    margin-bottom:  20px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.flex img {
+    border-radius: 50%;
+    background-size: contain;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    padding-top:  15px;
+    justify-content: space-between;
+}
+
+.footer h3{
+    padding: 10px;
+}
+
+footer ul {
+    list-style: none;
+    color: white;
+    padding: 30px;
+}
+
+footer ul li{
+    padding: 10px;
+}
+
+#footer-logo{
+    color: white;
+}
