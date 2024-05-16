@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poopins", sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav h3{
+    color: white;
+    padding-top: 30px;
+}
+
+nav ul {
+    list-style: none;
+    color: white;
+    display: flex;
+
+}
+
+nav ul li {
+    padding: 15px;
+    margin-top: 30px;
+    font-size: large;
+
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* border: 1px solid black; */
+    height: 100vh;
+    width: 80vw;
+}
+
+.child{
+    /* border: 1px solid black; */
+}
+
+
+
+#second{
+    background-color: rgb(240, 235, 228);
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start:2 ;
+    grid-row-end:4 ;
+}
+
+#third{
+    background-color: rgb(116, 104, 88);
+      grid-column-start: 1; 
+    grid-column-end:2 ;
+    grid-row-start:1;
+    grid-row-end:3 ; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fourth{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#set-name{
+    margin: 10px;
+}
+
+#price{
+    margin: 10px;
+}
+
+.heading{
+  padding: 10px;
+  margin: 7px;
+
+}
+.sizes{
+    display: flex;
+}
+.size{
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 7px 15px;
+    background-color: rgb(240, 235, 228);
+}
+
+.quantity{
+    display: flex;
+}
+.quantities{
+    border: 1px solid black;
+
+    border-radius: 40px;
+    margin: 25px;
+    padding:  7px 15px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.option{
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+#buynow{
+    background-color: rgb(100, 91, 81);
+    color: white;
+    margin-bottom: 25px;
+}
+
+#buynow:hover{
+    background-color: rgb(233, 223, 210);
+    color: black;
+
+}
+
+.dmr{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+._dmr{
+    text-align: center;
+  padding: 10px;
+  margin: 3px;
+   background-color: rgb(241, 230, 218);
+}
